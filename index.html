@@ -1,46 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Resume</title>
+    <title>My Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <img src="./Images/Profile.png" alt="Profile image" height="200" />
-    <hr />
-    <h1>Summary</h1>
-    <p>I'm Kabilesh, a Full Stack Developer skilled in the MERN stack. I specialize in building dynamic, scalable web applications and enjoy 	solving complex problems through clean, efficient code. Passionate about continuous learning, I strive to create user-friendly and high-	performance solutions.
+    <!-- header -->
+    <section id="header">
+      <img src="./Images/logo.jpg" alt="logo" class="logo">
+      <p class="headertext">Kabilesh's Portfolio</p>
+      <a href="" class="header-buttons">Summary</a>
+      <a href="" class="header-buttons">Education</a>
+      <a href="" class="header-buttons">Work Experience</a>
+      <a href="" class="header-buttons">Skills</a>
+      <a href="" class="header-buttons">Others</a>
+    </section>
+    		
+    <!-- welcome -->
+     <h1 class="welcome">
+      Welcome to my page!
+     </h1>  
+     <hr>
+
+    <!-- summary -->
+    <h2  class="heading" style="margin-left: 3rem;">Summary</h2>
+    <section id="summary">
+    
+      
+    <img src="./images/profile.jpeg" alt="Profile image" height="200" class="profile-img" style=" border-radius: 50%;">
+    <div class="name">
+    <h2 style="font-size: 40px;" >Kabilesh KS</h2>
+    <p >Full Stack Web Developer</p>
+    </div>
+    <p class="about">I'm Kabilesh, a Full Stack Developer skilled in the MERN stack. I specialize in building dynamic, scalable web applications and enjoy 	solving complex problems through clean, efficient code. Passionate about continuous learning, I strive to create user-friendly and high-	performance solutions.
     </p>
-    <hr />		
-    <h1>Education</h1>
-    <ul>
-	<li> <h3>Higher Secondary Education</h3>
-      Ramasamy Pillai Higher Secondary School | Completed in 2022</li>
-     <li> <h3>Bachelor of Technology (B.Tech) in Information Technology</h3>
-      J P college of engineering | 2026 </li>
-     </ul>
-    <hr />
-    <h1>Work Experience</h1>
-    <h3>Full Stack Web Development Intern</h3>
-      <h2>Arfy Technologies</h2>
-       <p>Worked on developing and maintaining web applications using MERN stack.
-      Gained hands-on experience in frontend and backend development.
-      Improved skills in API development, database management, and UI design.</p>
-    <hr />
-    <h1>Skills</h1>
-    <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>Node.js</li>
-    <li>PostgreSQL</li>
-    </ul>
-    <hr />
-    <h1>Others</h1>
-    <a href="./other-pages/hobbies.html" >Hobbies</a>
-    <a href="./other-pages/contact.html" >Contact</a>
-  
-  <footer>
-    <br />
-    © 2025 Kabi. All Rights Reserved.
-  </footer>
+    </section>
+    <hr>
+
+    <!-- education -->
+    <div id="double-section">
+      <div>
+        <h2 class="heading">Education</h2>
+        <section id="education" class="qualification">
+          <h3>Bachelor of Technology (B.Tech) in Information Technology</h3>
+          <p> J P college of engineering | 2026</p>
+        </section>
+      </div>
+
+    <!-- work experience -->
+      <div>
+        <h2 class="heading">Work Experience</h2>
+        <section id="workExperience" class="qualification" style="margin-left: 4rem;">
+          <h3>Full Stack Web Development Intern-Arfy Technologies</h3>
+          <p>Worked on developing and maintaining web applications using MERN stack.
+            Gained hands-on experience in frontend and backend development.
+            Improved skills in API development, database management, and UI design.
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr>
+
+    <!-- skills -->
+    <h2 class="heading">Skills</h2>
+    <section id="skills"> 
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>Node.js</p>
+      <p>PostgreSQL</p>
+    </section>
+    <hr>  
+
+    <!--others-->
+    <h2 class="heading">Others</h2>
+    <section id="others">
+      <a href="./other-pages/hobbies.html" class="link">Hobbies</a>
+      <a href="./other-pages/contact.html" class="link">Contact</a>
+  </section>
+
+  <section id="footer" style="height: 4rem;">
+    <p style="color: white; padding-top: 1rem;">
+      © 2025 Kabi. All Rights Reserved.
+    </p>
+  </section>
   </body>
+ 
 </html>
