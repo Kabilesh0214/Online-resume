@@ -95,9 +95,10 @@ h1, h2, h3{
 
 .link{
   text-decoration: none;
+  color: white;
   padding: 0.8rem 0.5rem ;
-  background-color: lightgreen;
-  border-radius: 5%;
+  background-color: rgba(20, 131, 20, 0.657);
+  border-radius: 10%;
 }
 #others{
   font-family: "Poppins", sans-serif;
